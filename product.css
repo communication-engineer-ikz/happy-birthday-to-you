@@ -22,6 +22,14 @@
   text-decoration: none;
 }
 
+.flower {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background: url("assets/img/pexels-karolina-grabowska-4041229.jpg");
+    background-size: cover;
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
