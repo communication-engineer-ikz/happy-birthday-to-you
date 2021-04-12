@@ -7,9 +7,11 @@
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background: url("assets/img/pexels-valeria-boltneva-617967.jpg");
+    background-size: cover;
 }
 .site-header a {
   color: #8e8e8e;
