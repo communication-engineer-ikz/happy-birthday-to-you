@@ -22,12 +22,12 @@
   text-decoration: none;
 }
 
-.flower {
+.cat {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    background: url("assets/img/pexels-karolina-grabowska-4041229.jpg");
-    background-size: cover;
+    background-image: url("assets/img/cat/pexels-gratisography-4602.jpg");
+    /* background-size: cover; */
 }
 
 .pink {
