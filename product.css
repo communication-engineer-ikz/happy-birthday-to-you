@@ -38,7 +38,8 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     background: url("assets/img/background/pexels-marina-utrabo-1729808_2.jpeg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .birthday-cake-bottom {
@@ -46,7 +47,8 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     background: url("assets/img/background/pexels-marina-utrabo-1729808_4.jpeg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .flower {
