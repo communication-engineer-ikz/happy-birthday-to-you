@@ -1,5 +1,5 @@
 .container {
-  max-width: 960px;
+  max-width: 1920px;
 }
 
 /*
@@ -7,44 +7,84 @@
  */
 
 .site-header {
-    background-color: rgba(0, 0, 0, .85);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    background: url("assets/img/pexels-valeria-boltneva-617967.jpg");
-    background-size: cover;
+  background-color: pink;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background: url("assets/img/cat/pexels-francesco-ungaro-96938_4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 .site-header a {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
 }
 
+.site-footer {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background: url("assets/img/cat/pexels-anel-rossouw-2558605_2.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.birthday-cake {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background: url("assets/img/background/pexels-marina-utrabo-1729808_2.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.birthday-cake-middle {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background: url("assets/img/background/pexels-marina-utrabo-1729808_3.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.birthday-cake-bottom {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background: url("assets/img/background/pexels-marina-utrabo-1729808_4.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .flower {
-    background-color: rgba(0, 0, 0, .85);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    background: url("assets/img/pexels-karolina-grabowska-4041229.jpg");
-    background-size: cover;
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  background: url("assets/img/background/pexels-valeria-boltneva-617967.jpg");
+  background-size: cover;
+}
+
+.img-w10 {
+  width: 10%;
 }
 
 .pink {
-  display        : inline-block;
-  color          : #ffe3ff;            /* 文字の色 */
-  font-size      : 18pt;               /* 文字のサイズ */
-  letter-spacing : 2px;                /* 文字間 */
-  text-shadow    : 
-       2px  2px 1px rgba(255, 102, 255, 0.78),
-      -2px  2px 1px rgba(255, 102, 255, 0.78),
-       2px -2px 1px rgba(255, 102, 255, 0.78),
-      -2px -2px 1px rgba(255, 102, 255, 0.78),
-       2px  0px 1px rgba(255, 102, 255, 0.78),
-       0px  2px 1px rgba(255, 102, 255, 0.78),
-      -2px  0px 1px rgba(255, 102, 255, 0.78),
-       0px -2px 1px rgba(255, 102, 255, 0.78);        /* 文字の影 */
+  display: inline-block;
+  color: #ffe3ff;
+  /* 文字の色 */
+  font-size: 18pt;
+  /* 文字のサイズ */
+  letter-spacing: 2px;
+  /* 文字間 */
+  text-shadow: 2px 2px 1px rgba(255, 102, 255, 0.78), -2px 2px 1px rgba(255, 102, 255, 0.78), 2px -2px 1px rgba(255, 102, 255, 0.78), -2px -2px 1px rgba(255, 102, 255, 0.78), 2px 0px 1px rgba(255, 102, 255, 0.78), 0px 2px 1px rgba(255, 102, 255, 0.78), -2px 0px 1px rgba(255, 102, 255, 0.78), 0px -2px 1px rgba(255, 102, 255, 0.78);
+  /* 文字の影 */
 }
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
@@ -79,16 +119,16 @@
   background-color: #e5e5e5;
 }
 
-
 /*
  * Extra utilities
  */
 
-.flex-equal > * {
+.flex-equal>* {
   flex: 1;
 }
+
 @media (min-width: 768px) {
-  .flex-md-equal > * {
+  .flex-md-equal>* {
     flex: 1;
   }
 }
