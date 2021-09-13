@@ -7,11 +7,11 @@
  */
 
 .site-header {
-    background-color: rgba(0, 0, 0, .85);
+    background-color: pink;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    background: url("assets/img/cat/pexels-anel-rossouw-2558605_2.jpeg");
-    background-size: 100%;
+    background: url("assets/img/cat/pexels-francesco-ungaro-96938_4.jpeg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -25,10 +25,10 @@
 }
 
 .site-footer {
-    background-color: pink;
+    background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-    background: url("assets/img/cat/pexels-peng-louis-3073694_3.jpeg");
+    background: url("assets/img/cat/pexels-anel-rossouw-2558605_2.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
