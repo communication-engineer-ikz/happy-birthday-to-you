@@ -41,6 +41,14 @@
     background-size: cover;
 }
 
+.birthday-cake-bottom {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background: url("assets/img/background/pexels-marina-utrabo-1729808_4.jpeg");
+    background-size: cover;
+}
+
 .flower {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
